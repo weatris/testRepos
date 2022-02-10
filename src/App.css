@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#root{
+  margin-top: 170px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.App {
+  margin: auto;
+  width: 50%;
+}
+.App h2{
+  text-align: center;
+}
+
+.myForm{
+  background-color: #dfe6e9;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.formField{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.myButton{
+  width: 100%;
+  background-color: #00b894;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.myList{
+  list-style: none;
+  table-layout: fixed;
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  background: white;
+}
+
+.myListButton{
+  display: inline-block;
+  width: 100%;
+}
+.remove{
+  color: red;
+}
+tr{
+  min-height: 30px;
+  margin-bottom: 10px;
+}
+td{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.data{
+  border: solid silver 1px;
+}
+
